@@ -80,7 +80,8 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/colourful987/NDCoolControl"}
+  spec.source       = { :git => "https://github.com/colourful987/NDCoolControl", :tag => 
+    '0.0.1'}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
