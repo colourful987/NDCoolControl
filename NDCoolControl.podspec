@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "NDCoolControl"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "NDCoolControl contains all cool controls."
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  This is an cool UIKit
+  This is an cool UIKit, just for demo. I learn cocoapods by this demo
                    DESC
 
   spec.homepage     = "https://github.com/colourful987"
@@ -64,8 +64,8 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # spec.platform     = :ios
-  # spec.platform     = :ios, "12.0"
+  spec.platform     = :ios
+  spec.platform     = :ios, "12.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -80,8 +80,8 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/colourful987/NDCoolControl", :tag => 
-    '0.0.1'}
+  spec.source       = { :git => "https://github.com/colourful987/NDCoolControl.git", :tag => 
+    '0.0.2'}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -93,7 +93,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.source_files  = "NDCoolControl"
+  spec.source_files  = "NDCoolControl/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"

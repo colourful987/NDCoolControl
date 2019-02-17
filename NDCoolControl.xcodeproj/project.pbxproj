@@ -12,6 +12,7 @@
 		4FAAC3F72219429700F4147A /* UIView+PathCreator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FAAC3F32219429700F4147A /* UIView+PathCreator.h */; };
 		4FAAC3F82219429700F4147A /* UIView+PathCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAAC3F42219429700F4147A /* UIView+PathCreator.m */; };
 		4FAAC3F92219429700F4147A /* NDCoolButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FAAC3F52219429700F4147A /* NDCoolButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FAAC420221996AF00F4147A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAAC41F221996AF00F4147A /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4FAAC3F32219429700F4147A /* UIView+PathCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PathCreator.h"; sourceTree = "<group>"; };
 		4FAAC3F42219429700F4147A /* UIView+PathCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PathCreator.m"; sourceTree = "<group>"; };
 		4FAAC3F52219429700F4147A /* NDCoolButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDCoolButton.h; sourceTree = "<group>"; };
+		4FAAC41F221996AF00F4147A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FAAC420221996AF00F4147A /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				4FAAC3E92219405000F4147A /* NDCoolControl */,
 				4FAAC3E82219405000F4147A /* Products */,
+				4FAAC41E221996AF00F4147A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				4FAAC3EB2219405000F4147A /* Info.plist */,
 			);
 			path = NDCoolControl;
+			sourceTree = "<group>";
+		};
+		4FAAC41E221996AF00F4147A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FAAC41F221996AF00F4147A /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
