@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "NDCoolControl"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "NDCoolControl contains all cool controls."
 
   # This description is used to generate tags and improve search results.
